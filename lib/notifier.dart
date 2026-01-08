@@ -32,6 +32,7 @@ class User {
 final userNameProvider = StateNotifierProvider<UserNotifier, String>((ref) {
   // we can also return an empty String here, for the sake of simplicity,
   //  let's return a sample name
+  //hello world
   return UserNotifier('Tsog');
 });
 
